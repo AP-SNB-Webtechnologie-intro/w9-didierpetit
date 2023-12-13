@@ -16,3 +16,11 @@ a, a:hover {
 .koffiebruin{
   color: #ca8446;
 }
+
+.coffeebrown-background {background-color:#ca8446;}
+
+.btn:hover {
+  color: #fff;
+  background-color: #ca8446;
+  border-color: #ca8446; /*set the color you want here*/
+}
