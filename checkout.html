@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="nl-BE">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recepten</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+  <!-- Bootstrap CSS icons: https://icons.getbootstrap.com/#usage -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <!-- JavaScript: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- eigen geschreven css voor jouw html-bestand -->
+<link rel="stylesheet" href="css/style.css">
+<script defer src="js/form-validation.js"></script>
+</head>
+
+<body class="p-3 m-0 border-0 bd-example">
+  <nav class="navbar navbar-expand-md bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="images/coffee.png" alt="Koffie & co" width="100" height="100">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class=" nav-link" aria-current="page" href="index.html">home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  active" href="recepten.html">recepten</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="shop.html" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                shop
+            </a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="shop.html">shop</a></li>
+                <li><a class="dropdown-item" href="checkout.html">checkout</a></li>
+                <li><a class="dropdown-item" href="klanten.html">klanten</a></li>
+            </ul>
+        </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">contact</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="zoeken" aria-label="Search">
+          <button class="btn btn-outline-secondary btn-sm" type="submit">zoeken</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <header class="row m-5">
+    <h1 class="col display-2 koffiebruin text-center">may the coffee<br>be with you</h1>
+  </header>
+
+  <div class="container">
+    <div class="row">
+      <main class="col-md-9 pe-3">
+        <section class="row">
+          <article class="col-12 mb-3">
+            <h2 class="text-uppercase fs-4 fw-bolder pt-3">checkout</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit quidem consequatur officiis labore
+              ex, expedita omnis architecto dolore ratione aliquid. Expedita libero est tempore esse distinctio?
+              Autem voluptas exercitationem eius quas harum magni obcaecati nemo cum voluptatum voluptatem maiores
+              quibusdam voluptates laudantium perspiciatis minima labore quod, id itaque iure nostrum.</p>
+          </article>
+          <hr>
+    
+    <!-- Custom styles for this template -->
+    <link href="form-validation.css" rel="stylesheet">
+  </head>
+  <body class="bg-light">
+    
+<div class="container">
+  <main>
+   
+
+    <div class="row g-5">
+      <div class="col-md-5 col-lg-4 order-md-last">
+        <h4 class="d-flex justify-content-between align-items-center mb-3">
+          <span class="text-primary text-uppercase">winkelmandje</span>
+          <span class="badge bg-primary rounded-pill">3</span>
+        </h4>
+        <ul class="list-group mb-3">
+          <li class="list-group-item d-flex justify-content-between lh-sm">
+            <div>
+              <h6 class="my-0">Product 1</h6>
+              <small class="text-muted">omschrijving</small>
+            </div>
+            <span class="text-muted">&euro;12</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between lh-sm">
+            <div>
+              <h6 class="my-0">Product 2</h6>
+              <small class="text-muted">omschrijving</small>
+            </div>
+            <span class="text-muted">&euro;8</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between lh-sm">
+            <div>
+              <h6 class="my-0">Product 3</h6>
+              <small class="text-muted">omschrijving</small>
+            </div>
+            <span class="text-muted">&euro;5</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between bg-light">
+            <div class="koffiebruin">
+              <h6 class="my-0">kortingscode</h6>
+              <small>AP-CODE</small>
+            </div>
+            <span class="text-success">−&euro;5</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between koffiebruin">
+            <span>Totaal (EUR)</span>
+            <strong>&euro;20</strong>
+          </li>
+        </ul>
+
+       
+      </div>
+      <div class="col-md-7 col-lg-12">
+        <h5 class="mb-3 text-uppercase">adresgegevens</h5>
+        <form class="needs-validation" novalidate>
+          <div class="row g-3">
+            <div class="col-sm-6">
+              <label for="firstName" class="form-label">voornaam</label>
+              <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+              <div class="invalid-feedback">
+                Dit veld is vereist.
+              </div>
+            </div>
+
+            <div class="col-sm-6">
+              <label for="lastName" class="form-label">achternaam</label>
+              <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+              <div class="invalid-feedback">
+                Dit veld is vereist.
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="username" class="form-label">gebruikersnaam</label>
+              <div class="input-group has-validation">
+                <span class="input-group-text">@</span>
+                <input type="text" class="form-control" id="username" placeholder="gebruikersnaam" required>
+              <div class="invalid-feedback">
+                Dit veld is vereist.
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="email" class="form-label">e-mail <span class="text-muted">(Optioneel)</span></label>
+              <input type="email" class="form-control" id="email" placeholder="uw@emailadres.com">
+              <div class="invalid-feedback">
+                Geef een geldig emailadres zodat we jou op de hoogte kunnen houden.
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="address" class="form-label">adres</label>
+              <input type="text" class="form-control" id="address" placeholder="Ellermansstraat 33" required>
+              <div class="invalid-feedback">
+                Geef het adres voor levering.
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="address2" class="form-label">adres 2<span class="text-muted">(Optioneel)</span></label>
+              <input type="text" class="form-control" id="address2" placeholder="">
+            </div>
+
+            <div class="col-md-5">
+              <label for="country" class="form-label">land</label>
+              <select class="form-select" id="country" required>
+                <option value="">Selecteer...</option>
+                <option>België</option>
+              </select>
+              <div class="invalid-feedback">
+                Geef een geldig land op.
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <label for="state" class="form-label">provincie</label>
+              <select class="form-select" id="state" required>
+                <option value="">selecteer...</option>
+                <option>Antwerpen</option>
+              </select>
+              <div class="invalid-feedback">
+                Geef een geldige provincie.
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <label for="zip" class="form-label">postcode</label>
+              <input type="text" class="form-control" id="zip" placeholder="" required>
+              <div class="invalid-feedback">
+                Postcode is vereist
+              </div>
+            </div>
+          </div>
+
+          <hr class="my-4">
+
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="same-address">
+            <label class="form-check-label" for="same-address">verzendadres is hetzelfde als factuuradres</label>
+          </div>
+
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="save-info">
+            <label class="form-check-label" for="save-info">bewaar deze informatie voor een volgende keer</label>
+          </div>
+
+          <hr class="my-4">
+
+          <h5 class="mb-3 text-uppercase">betaalwijze</h5>
+
+          <div class="my-3">
+            <div class="form-check">
+              <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked required>
+              <label class="form-check-label" for="credit">kredietkaart</label>
+            </div>
+            <div class="form-check">
+              <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required>
+              <label class="form-check-label" for="debit">debetkaart</label>
+            </div>
+            <div class="form-check">
+              <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required>
+              <label class="form-check-label" for="paypal">PayPal</label>
+            </div>
+          </div>
+
+          <div class="row gy-3">
+            <div class="col-md-6">
+              <label for="cc-name" class="form-label">naam op kaart</label>
+              <input type="text" class="form-control" id="cc-name" placeholder="" required>
+              <small class="text-muted">naam zoals op kaart vermeld</small>
+              <div class="invalid-feedback">
+                Naam van de kaart is verplicht
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <label for="cc-number" class="form-label">nummer kredietkaart</label>
+              <input type="text" class="form-control" id="cc-number" placeholder="" required>
+              <div class="invalid-feedback">
+                nummer kredietkaart is verplicht
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <label for="cc-expiration" class="form-label">vervaldatum</label>
+              <input type="text" class="form-control" id="cc-expiration" placeholder="" required>
+              <div class="invalid-feedback">
+                vervaldatum is vereist
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <label for="cc-cvv" class="form-label">CVV</label>
+              <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
+              <div class="invalid-feedback">
+                CVV code is vereist
+              </div>
+            </div>
+          </div>
+
+          <hr class="my-4">
+
+          <button class="w-100 btn btn-primary btn-lg" type="submit">verder naar betalen</button>
+        </form>
+        
+
+    
+      </div>
+    </div>
+  </main>
+
+  <footer class="container-fluid text-center h6 small p-4">&copy; 2023 koffie enzo</footer>
+
+</div>
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+      <script src="form-validation.js"></script>
+  </body>
+</html>
