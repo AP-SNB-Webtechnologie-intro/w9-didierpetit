@@ -28,7 +28,7 @@ fetch('https://api.sampleapis.com/coffee/hot/?results=20')
               <div class="accordion-body">
               <img src="${recipe.image}" style="max-height: 150px;" class="float-start img-sm p-3" alt=""><span class="h6 mt-2 koffiebruin">ingrediënten</span>:
                ${recipe.ingredients} <hr>
-               <span class="h6  mt-2 koffiebruin">bereiding</span>:
+               <span class="h6 mt-2 koffiebruin">bereiding</span>:
                ${recipe.description}</div>
             </div>
       </div>`;
