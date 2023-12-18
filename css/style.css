@@ -24,3 +24,16 @@ a, a:hover {
   background-color: #ca8446;
   border-color: #ca8446; /*set the color you want here*/
 }
+
+.img-sm{
+  width: 110px;
+  height: 110px;
+  padding: 0 20px 20px 0;
+  
+}
+
+.accordion-button:not(.collapsed) {
+  color: #ca8446;
+  background-color: #fff;
+}
+
